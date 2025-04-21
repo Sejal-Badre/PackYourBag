@@ -33,4 +33,6 @@ Pack Your Bag is a user-friendly Android application designed to help users plan
 ---
 
 ## 📂 Project Structure
+PackYourBag/ ├── app/ │ ├── java/com/example/packyourbag/ │ │ ├── MainActivity.java │ │ ├── AboutUs.java │ │ ├── SplashScreen.java │ │ ├── ChecklistActivity.java │ │ └── DatabaseHelper.java │ ├── res/ │ │ ├── layout/ │ │ │ ├── activity_main.xml │ │ │ ├── activity_about_us.xml │ │ │ ├── activity_splash_screen.xml │ │ │ └── checklist_item.xml │ │ ├── drawable/ │ │ ├── mipmap/ │ │ └── values/ ├── AndroidManifest.xml
+
 
