@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Card Background -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="24dp"
+            android:elevation="10dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:backgroundTint="#FFFFFF"
+            android:layout_margin="12dp"
+            android:clipToOutline="true">
+
+            <!-- App Logo -->
+            <ImageView
+                android:id="@+id/app_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/app_icon_two"
+                android:contentDescription="App Logo"
+                android:layout_marginBottom="16dp" />
+
+            <!-- App Name -->
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pack Your Bag"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#2196F3"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Tagline -->
+            <TextView
+                android:id="@+id/tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✈️ Your ultimate travel packing assistant"
+                android:textSize="17sp"
+                android:textColor="#333333"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginBottom="18dp" />
+
+            <!-- About Us -->
+            <TextView
+                android:id="@+id/about_us_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pack Your Bag helps you create smart, efficient packing lists tailored to your trip. Say goodbye to forgetting essentials and hello to stress-free travel!"
+                android:textSize="16sp"
+                android:textColor="#4E342E"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginBottom="18dp" />
+
+            <!-- Developer Info -->
+            <TextView
+                android:id="@+id/team_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="👩‍💻 Developed by Sejal Badre"
+                android:textSize="15sp"
+                android:textColor="#6A1B9A"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Contact Us -->
+            <TextView
+                android:id="@+id/contact_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📬 Contact Us"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/contact_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📧 sejalbadre@gmail.com"
+                android:textSize="15sp"
+                android:textColor="#2E7D32"
+                android:autoLink="email"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
